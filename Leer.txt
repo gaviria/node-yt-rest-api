@@ -1,0 +1,7 @@
+docker build -t node-rest-api .    => Para construir la imagen
+docker images   => pata ver las imagenes instaladas
+docker run node-rest.api => ejecutar la imagen o usar => docker run -it 4000:3000 node-rest-api
+
+docker run -d -p 4000:300 node-rest-api  => corre la imagen en background y da un id
+docker ps => mostrar imagenes corriendo
+docker stop {el id de imagen} => detiene la imagen
